@@ -66,3 +66,4 @@ const getCompletedTasks = () =>
 console.log("All Tasks:", initialTasks);
 
 // Log only completed tasks (status: "done") in the console under a "Completed Tasks" label for quick reference.
+console.log("Completed Tasks:", getCompletedTasks());

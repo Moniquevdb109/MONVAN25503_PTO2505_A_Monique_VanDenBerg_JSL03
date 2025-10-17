@@ -46,6 +46,15 @@ function addTasks () {
     alert("Invalid status. Please enter 'todo', 'doing' or 'done'")
     taskStatus = prompt("Enter the task status (todo, doing, done)").toLowerCase();
   }
+// Ensure each new task has a unique incremental ID based on the last task in the array.
+  const newTask = {
+    id: initialTasks.length + 1,
+    title: taskTitle,
+    description: taskDescription,
+    status: taskStatus,
+  };
+  
+  initialTasks.push(newTask);
 }
 
 // Ensure each new task has a unique incremental ID based on the last task in the array.

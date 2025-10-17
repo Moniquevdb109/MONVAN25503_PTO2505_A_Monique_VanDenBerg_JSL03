@@ -57,7 +57,10 @@ function addTasks () {
   initialTasks.push(newTask);
 }
 
-// Ensure each new task has a unique incremental ID based on the last task in the array.
 //  Implement a filter function to display only tasks with the status "done".
+const getCompletedTasks = () => 
+  initialTasks.filter((task) => task.status === "done");
+
+
 // Log all tasks in the console with a clear label for easy review.
 // Log only completed tasks (status: "done") in the console under a "Completed Tasks" label for quick reference.

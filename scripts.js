@@ -21,18 +21,18 @@ const initialTasks = [
   },
 ];
 
-//while loop to keep adding up to three new tasks to the existing task list.
+//While loop to keep adding up to three new tasks to the existing task list.
 while (initialTasks.length < 6) {
   addTasks();
 }
 
-//if statement to alert users when they reach the task limit with a message.
+//If statement to alert users when they reach the task limit with a message.
 if (initialTasks.length === 6) {
   alert("There are enough tasks on your board, please check them in the console.")
 }
 
-//function to prompt the users to enter task details and store them in an object.
-//followed by a while loop to validate the task status input and an alent if the status entered is incorrect.
+//Function to prompt the users to enter task details and store them in an object.
+//Followed by a while loop to validate the task status input and an alent if the status entered is incorrect.
 function addTasks () {
   const taskTitle = prompt("Enter the task title");
   const taskDescription = prompt("Enter the task description");
@@ -57,7 +57,7 @@ function addTasks () {
   initialTasks.push(newTask);
 }
 
-// Implementing a filter function to display only tasks with the status "done".
+//Implementing a filter function to display only tasks with the status "done".
 const getCompletedTasks = () => 
   initialTasks.filter((task) => task.status === "done");
 

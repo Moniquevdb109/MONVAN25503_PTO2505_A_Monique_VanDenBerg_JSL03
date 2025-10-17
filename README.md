@@ -1,38 +1,37 @@
-# JSL03 Project Brief: Console-Based Task Manager
+## 🕹️Console-Based Task Manager🕹️
 
-## Important Prerequisite
-
-1. Before starting this challenge, make sure you have reviewed and corrected your JSL02 project using the provided solution. Your prompts for entering task details should be fully functional and include proper validation checks to ensure accurate user input.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
-
-## Overview
+## 💡 Overview
 
 This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
 
-## Key Objectives
+---
 
-### Logic & User Interaction
+## 🚀 Key Objectives
 
-- Store tasks as **objects inside an array** for structured data management.
-- Allow users to **add up to three new tasks** to the existing task list.
-- Ensure each new task has a **unique incremental ID** based on the last task in the array.
-- Prompt users to enter **task details (title, description, status)** and store them in an object.
-- Alert users when they reach the task limit with the message:
-  _"There are enough tasks on your board, please check them in the console."_
-  Implement a **filter function** to display only tasks with the status `"done"`.
-- Log **all tasks** in the console with a clear label for easy review.
-- Log **only completed tasks** (status: `"done"`) in the console under a "Completed Tasks" label for quick reference.
+### 🧠 Logic & User Interaction
 
-## Code Quality & Maintainability
+- Store all tasks as **objects within an array** to maintain organized and structured data.  
+- Enable users to **add up to three new tasks** to the existing list.  
+- Automatically assign each new task a **unique, incremental ID** based on the previous task’s ID.  
+- Prompt users to input **task details** — including _title_, _description_, and _status_ — which are then stored as object properties.  
+- Display an alert when the task limit is reached:  
+  _"There are enough tasks on your board, please check them in the console."_  
+- Implement a **filter function** that displays only tasks with the status `"done"`.  
+- Log **all tasks** to the console under a clear label for easy reference.  
+- Log **completed tasks only** (status: `"done"`) under a dedicated `"Completed Tasks"` label for quick review.  
 
-- Use meaningful variable and function names to ensure readability and maintainability.
-- Follow consistent indentation and formatting to enhance code clarity.
-- Include comments explaining key logic and functionality to support future modifications.
+---
 
-## Expected Outcome
+## ⛏️ Tech Stack
 
-A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently while ensuring **clean, well-documented, and maintainable code.**
+[![My Skills](https://skillicons.dev/icons?i=html,css,git,github,vscode,figma)](https://skillicons.dev)
+
+---
+
+## 🎯 Expected Outcome
+
+A **simple yet structured task management system** that allows users to efficiently **add, review, and filter tasks** while maintaining a clear focus on **code readability, documentation, and long-term maintainability**.
 
 **Console Log of all and completed tasks**
 
-![console log](./explainer-images/console%20log.png)
+![console log](./explainer-images/Console.png)
